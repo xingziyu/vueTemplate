@@ -15,7 +15,7 @@ export default {
     methods: {
         async demo() {
             let res = await Api.demo()
-            console.log('测试', res)
+            console.log('测试1', res)
         }
     }
 }
